@@ -1,0 +1,37 @@
+.page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.conteudo-login{
+    text-align: center;
+    color: #ffff;
+    margin-right: 35px;
+}
+.conteudo-login span{
+    font-weight: bolder;
+    color: #E1A201;
+    
+}
+input{
+    height: 60px;
+}
+.form-control::placeholder,
+.form-control[placeholder] {
+    color: #E1A201 !important;
+}
+.esqueceu:hover{
+   color: #E1A201;
+}
+.conteudo-icons{
+    display: inline-flex;
+}
+.gg{
+    margin-right: 5px;
+}
+.btn-login:hover,
+.btn-login[hover]{
+    background-color: #D09000 !important;
+}
