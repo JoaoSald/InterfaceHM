@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +11,7 @@
 
 <body style="background-color: #3D7DB3;">
     <!-- INÍCIO TELA PRINCIPAL CELULAR -->
-    <div class="container d-md-none" style="margin-top: 30px;">
+ <div class="container d-md-none" style="margin-top: 30px;">
         <div class="row justify-content-center">
             <div class="col-sm-12">
                 <div class="conteudo-login">
@@ -20,21 +19,21 @@
                     <h2 class="text-center">Na melhor plataforma WEB <br> para controle de leitos hospitalares</h2>
                     <p class="text-center">Se você ainda não tem uma conta <br> Você pode <span><a href="registro.html">Se Registrar aqui !</a></span></p>
                 </div>
-                <form>
+                <form class="signup-form">
                     <div class="mb-3">
                         <h2 class="text-white" style="margin-bottom: 30px;">Login</h2>
-                        <input type="email" class="form-control" id="exampleInputEmail1"
+                        <input type="email" class="form-control" id="exampleInputEmail2"
                             placeholder="Entre com o e-mail ou nome de usuário">
                     </div>
                     <div class="mb-3">
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                        <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Senha">
                     </div>
                     <div class="mb-3 text-center">
                         <p class="text-white">Esqueceu a senha?</p>
                     </div>
                     <div class="mb-3 text-center">
-                        <a href="inicio.html" class="btn btn-lg text-white btn-login"
-                            style="background-color: #E1A201;">Login</a>
+                        <button type="button" class="btn btn-lg text-white btn-login"
+                            style="background-color: #E1A201;" id="loginButton2">Login</button>
                     </div>
                     <div class="text-center">
                         <p class="text-white">ou faça login com</p>
@@ -65,7 +64,7 @@
                 </form>
             </div>
         </div>
-    </div>
+    </div> 
     <!-- FIM TELA PRINCIPAL CELULAR -->
     <!-- INÍCIO TELA PRINCIPAL GRANDE -->
     <div class="page-content">
@@ -78,10 +77,10 @@
                     <img src="imagens/Medical Care (1) 1.png" alt="">
                 </div>
                 <div class="col">
-                    <form>
+                    <form class="signup-form">
                         <div class="mb-3">
                             <h2 class="text-white" style="margin-bottom: 30px;">Login</h2>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
+                            <input type="text" class="form-control" id="exampleInputEmail1"
                                 placeholder="Entre com o e-mail ou nome de usuário" aria-describedby="emailHelp"
                                 style="width: 450px;">
                         </div>
@@ -92,8 +91,8 @@
                         <div>
                             <p class="text-white">Esqueceu a senha?</p>
                         </div>
-                        <a href="inicio.html" class="btn btn-lg text-white btn-login"
-                            style="height: 50px; width: 450px; margin-bottom: 10px; background-color: #E1A201;">login</a>
+                        <button type="button" class="btn btn-lg text-white btn-login"
+                            style="height: 50px; width: 450px; margin-bottom: 10px; background-color: #E1A201;" id="loginButton">login</button>
                         <div>
                             <p class="text-white">ou faça login com</p>
                             <div class="conteudo-icons">
@@ -126,9 +125,9 @@
         </div>
     </div>
     <!-- FIM TELA PRINCIPAL GRANDE -->
-</body>
+<script src="js/appLogin.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
-
+</body>
 </html>
